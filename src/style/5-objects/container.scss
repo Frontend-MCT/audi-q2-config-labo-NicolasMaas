@@ -11,7 +11,11 @@
 
 .o-container-fluid {
     // Sizing
-    width: 100vw;
+    max-width: $mobile-lg;
+    
+    // Spacing
+    margin-left: auto;
+    margin-right: auto;
 
     // Spacing
     padding: 0 !important;
