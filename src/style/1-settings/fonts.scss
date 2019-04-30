@@ -1,0 +1,52 @@
+/*
+    Fonts
+
+    Here I can specify the fonts being used during my
+    entire project.
+
+    I prefer to use a sans-serif and a serif font stack.
+    Mono fonts are barely used in my projects.
+*/
+
+// Font Family's
+$sans-serif-font-stack: 'Source Sans Pro',
+sans-serif;
+$serif-font-stack: '';
+$monotype-font-stack: '';
+
+// Responsive Standard Font Sizes
+// (with the use of the breakpoint variables)
+
+$font-size: 1.4rem;
+$line-height: 2.2rem;
+
+// Laptop
+@media (min-width: $laptop-lg) {
+    // 1440px
+}
+
+@media (min-width: $laptop-md) {
+    // 1200px
+}
+
+@media (min-width: $laptop-sm) {
+    // 1024px
+}
+
+// Tablet
+@media (min-width: $tablet) {
+    // 768px
+}
+
+// Mobile
+@media (min-width: $mobile-lg) {
+    // 425px
+}
+
+@media (min-width: $mobile-md) {
+    // 375px
+}
+
+@media (min-width: $mobile-lg) {
+    // 320px
+}

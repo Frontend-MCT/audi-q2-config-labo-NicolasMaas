@@ -1,0 +1,12 @@
+.c-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    height: 80px;
+}
+
+.c-nav--icon {
+    height: 100%;
+    width: 16px;
+}

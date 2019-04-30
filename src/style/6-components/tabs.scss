@@ -1,0 +1,18 @@
+.c-tabs {
+    list-style-type: none;
+    padding: 0;
+}
+
+.c-tabs--item {
+    opacity: .6;
+    display: inline;
+    margin-right: 2.4rem;
+}
+
+.c-tabs--item-selected {
+    opacity: 1;
+    color: $primary-color;
+    font-weight: 700;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid $primary-color;
+}

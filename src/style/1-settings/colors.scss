@@ -1,0 +1,85 @@
+/*
+    Colors
+
+    Try to use HSL as much as possible. It will give you
+    much better results if you use darken or lighten in
+    SASS. 
+    
+    If you use Visual Studio Code (smart choice 😉)
+    there are color extensions that can easily make colors
+    from RGB, HEX, ... to HSL
+*/
+
+// Red Colors
+
+// Blue Colors
+
+// Green Colors
+$joker-green: hsl(148, 100%, 42%);
+
+// Yellow Colors
+$bright-yellow: hsl(44, 100%, 49%);
+
+// Purple Colors
+
+// Brown Colors
+
+// Light Colors
+$white: hsl(255, 100%, 100%);
+$grey: hsl(0, 0%, 95%);
+
+// Dark Colors
+$black: hsl(300, 3%, 14%);
+$shadow: rgba(0, 0, 0, .16);
+$charcoal: hsl(200, 4%, 14%);
+
+/*
+    Color configurations
+    
+    These are used in the entire project. You can use the
+    above named colors down here. It's best to seperate them
+    so you can name your colors whatever you want.
+*/
+
+// Main Colors
+$primary-color: $bright-yellow;
+$secondary-color: darken($primary-color, 20%);
+
+$primary-font-color: $black;
+$secondary-font-color: lighten($primary-font-color, 15%);
+
+$primary-dark-color: $black;
+$secondary-dark-color: lighten($primary-dark-color, 15%);
+
+$primary-light-color: $white;
+$secondary-light-color: $grey;
+
+// Gradients
+$primary-gradient: linear-gradient(to left bottom, $primary-color, darken($primary-color, 20%));
+$secondary-gradient: linear-gradient(to left bottom, $secondary-color, darken($secondary-color, 20%));
+$primary-secondary-gradient: linear-gradient(to left bottom, $primary-color, $secondary-color);
+$midnight-city-gradient: linear-gradient(to left bottom, hsl(200, 4%, 14%), hsl(210, 3%, 16%), hsl(200, 4%, 14%));
+
+// Basic Link Colors
+$link-color: darken($primary-color, 15%);
+$link-hover-color: $primary-color;
+$link-vistied-color: $primary-color;
+
+// Navigation Link Colors
+$nav-link-color: $primary-color;
+$nav-hover-color: darken($primary-color, 15%);
+
+/*
+    Social Media Colors
+
+    For quick and easy use, the colors for the most used 
+    social media channels
+*/
+
+$facebook-color: hsl(221, 44%, 41%);
+$twitter-color: hsl(203, 89%, 53%);
+$youtube-color: hsl(0, 100%, 50%);
+$instagram-color: hsl(340, 75%, 54%);
+$medium-color: hsl(158, 100%, 34%);
+$dribbble-color: hsl(337, 79%, 61%);
+$behance-color: hsl(219, 100%, 55%);

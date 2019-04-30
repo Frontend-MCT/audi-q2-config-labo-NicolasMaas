@@ -1,0 +1,27 @@
+:root {
+    font-size: 62.5%;
+
+    --gutter: 2.4rem;
+}
+
+::selection,
+::-moz-selection {
+    color: #FFF;
+    background: $primary-color;
+}
+
+html,
+body {
+    font-family: $sans-serif-font-stack;
+    font-size: $font-size;
+    line-height: $line-height;
+    letter-spacing: .2rem;
+    color: $primary-font-color;
+    background-color: $grey;
+}
+
+.has-mobile-nav {
+    position: relative;
+    overflow: hidden !important;
+    -webkit-overflow-scrolling: hidden !important;
+}

@@ -1,0 +1,18 @@
+.o-container {
+    // Sizing
+    max-width: $mobile-lg;
+
+    // Spacing
+    margin-left: auto;
+    margin-right: auto;
+    // padding: 2.4rem 3.2rem;
+    padding: 0 3.2rem;
+}
+
+.o-container-fluid {
+    // Sizing
+    width: 100vw;
+
+    // Spacing
+    padding: 0 !important;
+}

@@ -1,0 +1,11 @@
+/*
+    Object: Wrapper
+    ---
+    Body wrapper
+*/
+
+.o-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh);
+}
